@@ -1,0 +1,26 @@
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+#acesse{
+    border: solid 1px white;
+    border-radius: 20px;
+    color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    cursor: pointer;
+    padding: 8px;
+}
+
+#acesse:hover{
+    transform: scale(1.1)
+}
+
+.section1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+   
+}
