@@ -1,29 +1,9 @@
-header{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 10px;
-  gap: 320px;
-}
 
 #logo{
-  width: 7%;
+  width: 80px;
+  height: 60px;
   background: transparent;
   padding-top: 10px;
-}
-
-#acesse{
-  font-size: 20px;
-    border: solid 1px white;
-    border-radius: 20px;
-    color: white;
-    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
-    cursor: pointer;
-    padding: 10px;
-}
-
-#acesse:hover{
-    transform: scale(1.1)
 }
 
 .section1{
@@ -31,17 +11,16 @@ header{
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-   margin-top: 40px;
 }
 
 .section1 div{
   display: flex;
   flex-direction: column;
-  gap: 5px;
+
 }
 
 .section1 div h1{
-  font-size: 40px;
+  font-size: 60px;
   width: 550px;
   margin-bottom: 10px;
 }
@@ -54,6 +33,6 @@ header{
 }
 
 #cel-1 {
-  width: 600px;
+  width: 50%;
   background: transparent; 
 }
