@@ -59,6 +59,12 @@ header {
   border: solid 1px #2dafe9;
   border-radius: 20px;
   padding: 10px;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s
+}
+
+.hero-section .hero-link:hover {
+    background-color: #081c24;
+    transform: scale(1.2)
 }
 
 .hero-image {
